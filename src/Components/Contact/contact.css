@@ -1,0 +1,27 @@
+.contacts{
+    background-color:#152421bd ;
+    width: 100%;
+    height: auto;
+}
+.last{
+    display: flex;
+}
+.cont1 {
+    width: 50%;
+}
+.text-s{
+    font-size: 36px;
+}
+@media (max-width: 720px){
+    .last {
+        display: none;
+    }
+    .cont1{
+        width: 100%;
+    }
+}
+@media (max-width: 450px){
+    .text-s{
+        font-size: 20px;
+    }
+}
