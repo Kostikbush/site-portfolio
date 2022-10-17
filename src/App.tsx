@@ -5,8 +5,6 @@ import { Contacts } from './Components/Contact/Contact';
 import FirstMessage from './Components/FirstMessage/FirstMessage';
 import { Header } from './Components/Header/Header';
 import { MySkils } from './Components/MySkils/MySkils';
-import { useAppDispatch, useAppSelector } from './store/hooks';
-import {alertOnWindow} from './store/siteReducer';
 
 function App() {
   const [displayHeader, setDisplayHeader] = useState(false);
