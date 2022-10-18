@@ -2,8 +2,6 @@ import {useEffect, useState} from 'react';
 
 import './message.css';
 import { printingText } from '../../printTextOnScreen';
-import img from '../../img/myfoto.png';
-import myFoto from '../../img/myFotoSelf.jpg'
 import myFoto1 from '../../img/myfoto2.jpg'
 
 function FirstMessage(){
