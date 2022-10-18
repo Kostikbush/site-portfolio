@@ -42,6 +42,6 @@ setTimeout(()=>{
                 drops[i]++;
             }
         }
-        setInterval(draw, 30);
+        setInterval(draw, 25);
     },111)
 }, 0) 
