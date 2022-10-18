@@ -16,15 +16,15 @@ function App() {
     }
 }
   return (
-    <div className="App">
-      <Header setDisplayHeader={setDisplayHeader} displayHeader={displayHeader} handleClick={handleClick}/>
-      <main className='px-5'>
-        <FirstMessage/>
-        <AboutMe/>
-        <MySkils/>
-      </main>
-      <Contacts/>
-    </div>
+      <div className="App">
+        <Header setDisplayHeader={setDisplayHeader} displayHeader={displayHeader} handleClick={handleClick}/>
+        <main className='px-5'>
+          <FirstMessage/>
+          <AboutMe/>
+          <MySkils/>
+        </main>
+        <Contacts/>
+      </div>
   );
 }
 

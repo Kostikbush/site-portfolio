@@ -1,0 +1,35 @@
+#canvas {
+    position:absolute;
+    top: -50px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 480rem;
+    z-index: -1;
+  }
+
+  @media (max-width: 1800px){
+    #canvas{
+        height: 420rem;
+    }
+  }
+  @media (max-width: 1300px){
+    #canvas{
+        height: 380rem;
+    }
+  }
+  @media (max-width: 801px){
+    #canvas{
+        height: 340rem;
+    }
+  }
+  @media (max-width: 700px){
+    #canvas{
+        height: 310rem;
+    }
+  }
+  @media (max-width: 500px){
+    #canvas{
+        height: 280rem;
+    }
+  }
