@@ -51,7 +51,8 @@ export const AboutMe = () => {
         printingText('paragrath',textFirstP, value, setValue);
     }, [])
     return (
-        <section id='about' className='about__wrapper'>
+        
+        <section id='about' className='about__wrapper relative'>
             <h2 className='text-4xl self-center justify-self-center uppercase'>About Me.</h2>
             <div className='about'>
                 <div className='about__paragrath'>

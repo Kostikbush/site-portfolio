@@ -91,7 +91,7 @@ export const MySkils = () => {
         stroke: '#fff'
     } 
     return (
-        <section id='scils' className="wrapper__cards mb-14">
+        <section id='scils' className="wrapper__cards mb-14 relative">
             <h2 className='uppercase text-white'>My skils</h2>
             <div className='items-center justify-center w-full flex flex-col'>
                 <div className='cards__skils__wrapper'>
