@@ -1,7 +1,7 @@
 .contacts{
     background-color:#152421bd ;
     width: 100%;
-    height: auto;
+    height: 20%;
 }
 .last{
     display: flex;
@@ -10,9 +10,12 @@
     width: 50%;
 }
 .text-s{
-    font-size: 36px;
+    font-size: 1.5rem;
 }
 @media (max-width: 720px){
+    .contacts{
+        height: 300px;
+    }
     .last {
         display: none;
     }

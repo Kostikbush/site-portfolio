@@ -40,7 +40,7 @@ export const Header = (props: Props) => {
                 <li 
                 className='header-li'>
                     <a href="#scils">
-                        my scils
+                        my scills
                     </a>
                 </li>
                 <li 
@@ -66,7 +66,7 @@ export const Header = (props: Props) => {
                 </li>
                 <li onClick={() => hand(setDisplayHeader, displayHeader)} className='header-li-smart'>
                     <a href="#scils">
-                        my scils
+                        my scills
                     </a>
                 </li>
                 <li onClick={() => hand(setDisplayHeader, displayHeader)} 

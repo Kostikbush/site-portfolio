@@ -10,7 +10,7 @@ test('renders content', () => {
     }
     render(<Header setDisplayHeader={setDisplayHeader} displayHeader={displayHeader} handleClick={handleClick} />)
     const elementOne = screen.getAllByText(`about me`);
-    const elementTwo = screen.getAllByText('my scils');
+    const elementTwo = screen.getAllByText('my scills');
     const elementFree = screen.getAllByText('contacts');
     const elementFo = screen.getAllByText('start');
     expect(elementOne).toHaveLength(2);

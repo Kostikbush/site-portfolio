@@ -42,9 +42,9 @@ export const AboutMe = () => {
     const slidTwo = {
         left: `${ofsetTwo}`+'px'
     }
-    const textFirstP = `Good afternoon, I am a 
-    junior frontend developer, I have been studying 
-    for 1.5 years on video, books and courses.
+    const textFirstP = `Hello, I am a 
+    junior frontend developer, I have been self-studied 
+    by video, books and courses.
     My projects are presented below as laid out for use, and on github.
     `;
     useEffect(()=> {
@@ -53,19 +53,19 @@ export const AboutMe = () => {
     return (
         
         <section id='about' className='about__wrapper relative'>
-            <h2 className='text-4xl self-center justify-self-center uppercase'>About Me.</h2>
+            <h2 className='text-4xl self-center justify-self-center uppercase'>About Me</h2>
             <div className='about'>
                 <div className='about__paragrath'>
                     <p className='paragrath'>
                           {value}
                     </p>
                     <ul>
-                        Books I've read:
+                        Books I've finished:
                         <li>1) Grokking Algorithms.</li>
                         <li>2) Learning Python Fourth Edition - Mark Lutz.</li>
                         <li>3) A series of books - you don't know JS.</li>
                         <li>4) Site Lern JavaScript.ru</li>
-                        <li>5) Mdn</li>
+                        <li>5) MDN WEB DOCS</li>
                         <li>And others..</li>
                     </ul> 
                 </div>
@@ -83,11 +83,11 @@ export const AboutMe = () => {
                 </div>
             </div>
             <div>
-                    <p className='about__paragrath'>I also took a Fullstack development course from the Finnish University in Helsinki</p>
-                    <p>This is <a className='text-green-600 text-3xl' href='https://fullstackopen.com/en/'>link</a> on the curs.</p>
-                    <p>This is <a className='text-green-600 text-3xl' href='https://github.com/Kostikbush/fullStack-cours-home-work.git'>link</a> git repo of this curs.</p>
+                    <p className='about__paragrath'>I also took a Fullstack development course from the Finnish University of Helsinki</p>
+                    <p>Here is the <a className='text-green-600 text-3xl' href='https://fullstackopen.com/en/'>link</a> to the curs.</p>
+                    <p>Here <a className='text-green-600 text-3xl' href='https://github.com/Kostikbush/fullStack-cours-home-work.git'>git repo</a> of the curs.</p>
                     <div className='text-center'>
-                        <h3 className='text-4xl'>Phots works from the curs</h3>
+                        <h3 className='text-4xl'>Screens of works from the curse</h3>
                         <div className='curs-wrapper__container'>
                             <div className='curs-container__block'>
                                 <div style={slidTwo} className='curs-block'>

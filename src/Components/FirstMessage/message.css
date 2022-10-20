@@ -58,7 +58,7 @@
     font-family: 'Dited';
     color: #fff;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 2rem;
     line-height: 45px;
     height: 200px;
   }
@@ -69,8 +69,7 @@
 }
 .wrapper-first {
     width: 100%;
-    height: 400px;
-    border-radius: 10px;
+    height: 450px;
     background-color: #152421bd;
     border: #00cc88 solid 4px;
     margin-bottom: 50px;
@@ -89,13 +88,6 @@
         flex-direction: column;
         justify-content: space-between;
     }
-    .hi-text {
-        font-family: 'Dited';
-        color: #fff;
-        font-weight: 600;
-        font-size: 35px;
-        line-height: 37px;
-      }
 }
 @media (max-width: 650px){
     .start-media {
@@ -105,13 +97,6 @@
     .wrapper-img  {
         display: none;
     }    
-    .hi-text {
-        font-family: 'Dited';
-        color: #fff;
-        font-weight: 600;
-        font-size: 35px;
-        line-height: 37px;
-      }
 }
 @media (max-width: 420px){
     .start-media {
@@ -127,17 +112,9 @@
         width: 140px;
         height: 40px;
     }
-    .hi-text {
-        font-family: 'Dited';
-        color: #fff;
-        font-weight: 600;
-        font-size: 25px;
-        line-height: 45px;
-    }
 }
-
-@media (max-width: 380px){
-    .hi-text{
-        line-height: 35px;
+@media (max-width: 395px){
+    .hi-text {
+        font-size: 1.5rem;
     }
 }

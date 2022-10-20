@@ -92,7 +92,7 @@ export const MySkils = () => {
     } 
     return (
         <section id='scils' className="wrapper__cards mb-14 relative">
-            <h2 className='uppercase text-white'>My skils</h2>
+            <h2 className='uppercase text-white'>My skills</h2>
             <div className='items-center justify-center w-full flex flex-col'>
                 <div className='cards__skils__wrapper'>
                     <div style={leftStyle}  className="cards__skils">
@@ -159,7 +159,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/Cool-Elements-for-the-site_sort/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={sortAn} alt="Gallery image 1" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This is project simple filter.
+                                        Simple filter.
                                         <br/>
                                         Made with 
                                         <span className='text-white flex justify-around w-full'>
@@ -175,7 +175,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://todo-app-3vhjez0at-kostikbush.vercel.app/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={todo} alt="Gallery image 2" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        THis is PWA app Todo for day.
+                                        PWA App Todo for day.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -191,7 +191,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/MoGo/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={mogo} alt="Gallery image 3" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This is project adaptive layout.
+                                        Adaptive layout.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -206,7 +206,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/MNTN/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={mntn} alt="Gallery image 4" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This is project adaptive layout.
+                                        Adaptive layout.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -221,7 +221,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/post-like/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={post} alt="Gallery image 5" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This is project elemnt of site whith post.
+                                        Elemnt of site whith post.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -236,7 +236,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/posts-json-placeholder/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={posts} alt="Gallery image 6" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This project is element of site whith posts. 
+                                        Element of site whith posts. 
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -251,7 +251,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/Cool-Elements-for-the-site_dropdown_piple/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={bad} alt="Gallery image 6" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This project is a filter for selecting the number of people
+                                        Filter for selecting the number of people
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -266,7 +266,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/clock/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={clock} alt="Gallery image 6" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This is project a clock.
+                                       Clock.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -281,7 +281,7 @@ export const MySkils = () => {
                                     <a target="_blank" href='https://kostikbush.github.io/like-cats/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={cats} alt="Gallery image 6" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        This is project a likes for cats.
+                                        Like for cats.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
