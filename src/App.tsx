@@ -10,7 +10,7 @@ import logo from './img/logo-app.jpg';
 
 function App() {
 	const [displayHeader, setDisplayHeader] = useState(false);
-	const [firstFrame, setFirstFrame] = useState(true);
+	const [firstFrame, setFirstFrames] = useState(true);
 	const handleClick = (setFunc: Function, element: boolean) => {
 		const header = document.querySelector('header');
 		setFunc(!element);
@@ -20,7 +20,7 @@ function App() {
 	};
 	useEffect(() => {
 		setTimeout(() => {
-			setFirstFrame(false);
+			setFirstFrames(false);
 		}, 3000);
 	}, []);
 	return (
