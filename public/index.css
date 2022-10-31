@@ -3,7 +3,7 @@
 	left: 0;
 	top: 0;
 	background-color: white;
-	z-index: 1000;
+	z-index: 100;
 	transition: 3s all;
 	opacity: 1;
 	visibility: visible;
@@ -19,11 +19,9 @@
 	height: 320px;
 	border-radius: 30px;
 	overflow: hidden;
-	z-index: 1001;
-	animation: 2s animate-container linear;
+	animation: 2.5s animate-container linear;
 }
 .my-logo__img img {
-	z-index: 1002;
 	width: 320px;
 	height: auto;
 	transform: translate(-50%, -50%);
@@ -32,7 +30,7 @@
 	top: 50%;
 	opacity: 0;
 	transition: all 1s;
-	animation: 3s animate linear;
+	animation: 1.5s animate linear;
 }
 @keyframes animate {
 	0% {
@@ -61,8 +59,12 @@
 		width: 320px;
 		height: 320px;
 	}
-	70% {
+	90% {
 		border-radius: 30px;
+		width: 320px;
+		height: 320px;
+	}
+	95% {
 		box-shadow: 1px 3px 31px 10px rgba(196, 196, 196, 0.931);
 		border: 1px solid rgba(207, 207, 207, 0.723);
 		border-radius: 30px;
@@ -77,23 +79,22 @@
 		height: 100vh;
 	}
 }
+
 .alert-enter {
 	opacity: 0;
-	transform: scale(0.9);
 }
 .alert-enter-active {
 	opacity: 1;
-	transform: translateX(0);
-	transition: opacity 300ms, transform 300ms;
+	transition: opacity 500ms;
 }
 .alert-exit {
 	opacity: 1;
 }
 .alert-exit-active {
 	opacity: 0;
-	transform: scale(0.9);
-	transition: opacity 300ms, transform 300ms;
+	transition: opacity 500ms;
 }
+
 #canvas {
 	width: 100%;
 	height: 455rem;
