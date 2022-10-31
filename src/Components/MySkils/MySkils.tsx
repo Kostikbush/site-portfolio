@@ -175,7 +175,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://todo-app-3vhjez0at-kostikbush.vercel.app/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={todo} alt="Gallery image 2" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        PWA App Todo for day.
+                                        PWA To-do list App.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>
@@ -221,7 +221,7 @@ export const MySkils = () => {
                                 <a target="_blank" href='https://kostikbush.github.io/post-like/' className='absolute w-full h-full top-0 left-0 z-50'></a>
                                     <img src={post} alt="Gallery image 5" className="gallery__img" />
                                     <p className='text-img justify-between'>
-                                        Elemnt of site whith post.
+                                        Element of site whith post.
                                         <br/>
                                         Made with 
                                         <span className='flex justify-around w-full'>

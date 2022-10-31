@@ -87,7 +87,7 @@ export const AboutMe = () => {
                     <p>Here is the <a className='text-green-600 text-3xl' href='https://fullstackopen.com/en/'>link</a> to the curs.</p>
                     <p>Here <a className='text-green-600 text-3xl' href='https://github.com/Kostikbush/fullStack-cours-home-work.git'>git repo</a> of the curs.</p>
                     <div className='text-center'>
-                        <h3 className='text-4xl'>Screens of works from the curse</h3>
+                        <h3 className='text-4xl'>Screens of works from the course</h3>
                         <div className='curs-wrapper__container'>
                             <div className='curs-container__block'>
                                 <div style={slidTwo} className='curs-block'>
