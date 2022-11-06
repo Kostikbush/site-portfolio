@@ -52,9 +52,7 @@ export const AboutMe = () => {
         
     }
     const slidTwo = {
-        
-        left: `${ofsetTwo}`+'px';
-        
+        left: `${ofsetTwo}`+'px'
     }
 
 
