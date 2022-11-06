@@ -19,28 +19,42 @@ import {useCustomState} from '../../customHooks/useState';
 import { printingText } from '../../printTextOnScreen';
 
 export const AboutMe = () => {
+    
     const [offset, setOffset] = useState(0);
     const [ofsetTwo, setOfsetTwo] = useState(0);
     const {value, setValue} = useCustomState();
     const slide = (off:number, setOf:Function, dalay:number, offMinus:number, wid:number) => {
+        
         if(off < wid){
             setOf(0)
         }
+        
         setTimeout(()=> {
             setOf(off-offMinus)
         }, dalay)
     }
+    
     useEffect(()=> {
+        
         slide(offset, setOffset, 1700,300, -1500);
+        
     },[offset])
+    
     useEffect(()=> {
-        slide(ofsetTwo, setOfsetTwo, 1300, 240, -1200)
+        
+        slide(ofsetTwo, setOfsetTwo, 1300, 240, -1200);
+        
     }, [ofsetTwo])
+    
     const slidSt = {
-        left: `${offset}`+'px'
+        
+        left: `${offset}`+'px';
+        
     }
     const slidTwo = {
-        left: `${ofsetTwo}`+'px'
+        
+        left: `${ofsetTwo}`+'px';
+        
     }
 
 
@@ -51,10 +65,11 @@ export const AboutMe = () => {
     My projects are presented below as laid out for use, and on github.
     `;
     useEffect(()=> {
+        
         printingText('paragrath',textFirstP, value, setValue);
+        
     }, [])
     return (
-        
         <section id='about' className='about__wrapper relative'>
             <h2 className='text-4xl self-center justify-self-center uppercase'>About Me</h2>
             <div className='about'>
