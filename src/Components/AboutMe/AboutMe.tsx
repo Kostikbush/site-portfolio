@@ -48,7 +48,7 @@ export const AboutMe = () => {
     
     const slidSt = {
         
-        left: `${offset}`+'px';
+        left: `${offset}`+'px'
         
     }
     const slidTwo = {
