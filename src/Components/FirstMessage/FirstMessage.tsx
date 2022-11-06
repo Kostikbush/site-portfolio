@@ -6,7 +6,7 @@ import myFoto1 from '../../img/myfoto2.jpg'
 
 function FirstMessage(){
     const [hello, setHello] = useState('');
-    const hi = `Hi! My name is Konstantin. I’m a Frontend developer.
+    const hi = `Hi! My name is Konstantin. I’m a web developer.
     I have skills in: 
     HTML, React, redux, typescript, scss, css libraries, EsLint, testing the components.`;
     useEffect(()=> {
