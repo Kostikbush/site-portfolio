@@ -42,6 +42,9 @@ export const AboutMe = () => {
     const slidTwo = {
         left: `${ofsetTwo}`+'px'
     }
+
+
+    
     const textFirstP = `Hello, I am a 
     web developer, I have been self-studied 
     by video, books and courses.
