@@ -43,7 +43,7 @@ export const AboutMe = () => {
         left: `${ofsetTwo}`+'px'
     }
     const textFirstP = `Hello, I am a 
-    junior frontend developer, I have been self-studied 
+    web developer, I have been self-studied 
     by video, books and courses.
     My projects are presented below as laid out for use, and on github.
     `;
