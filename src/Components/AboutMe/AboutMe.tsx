@@ -47,7 +47,6 @@ export const AboutMe = () => {
     }, [ofsetTwo])
     
     const slidSt = {
-        
         left: `${offset}`+'px'
         
     }
@@ -58,7 +57,7 @@ export const AboutMe = () => {
 
     
     const textFirstP = `Hello, I am a 
-    web developer, I have been self-studied 
+    Web developer, I have been self-studied 
     by video, books and courses.
     My projects are presented below as laid out for use, and on github.
     `;
